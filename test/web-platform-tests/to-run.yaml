@@ -608,6 +608,27 @@ form_owner_and_table_3.html: [fail, complex form owner semantics not implemented
 
 ---
 
+DIR: html/semantics/forms/form-submission-0
+
+FormDataEvent.window.html: [fail, form submission navigation not implemented]
+SubmitEvent.window.html: [fail, form submission navigation not implemented]
+constructing-form-data-set.html: [fail-slow, form submission navigation not implemented]
+form-data-set-empty-file.window.html: [fail-slow, form submission navigation not implemented]
+#form-data-set-usv-form.html: [fail, form submission navigation not implemented]
+form-data-set-usv.html: [fail-slow, form submission navigation not implemented]
+form-double-submit-2.html: [fail, form submission navigation not implemented]
+form-double-submit-3.html: [fail-slow, form submission navigation not implemented]
+form-double-submit.html: [fail-slow, form submission navigation not implemented]
+form-submission-algorithm.html: [fail-slow, form submission navigation not implemented]
+getactionurl.html: [fail-slow, form submission navigation not implemented]
+implicit-submission.optional.html: [fail, form submission navigation not implemented]
+submission-checks.window.html: [fail-slow, form submission navigation not implemented]
+submit-entity-body.html: [fail-slow, form submission navigation not implemented]
+submit-file.sub.html: [fail, form submission navigation not implemented]
+url-encoded.html: [fail-slow, form submission navigation not implemented]
+
+---
+
 DIR: html/semantics/forms/resetting-a-form
 
 ---
