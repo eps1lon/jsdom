@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>HTML Test: form.submit()</title>
+<link rel="help" href="https://html.spec.whatwg.org/multipage/#the-fieldset-element">
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<div id="log"></div>
+<form name="fm1" style="display:none">
+  <fieldset id="fs_outer">
+  <legend><input type="checkbox" name="cb"></legend>
+  <input type=text name="txt" id="ctl1">
+  <button id="ctl2" name="btn">BUTTON</button>
+    <fieldset id="fs_inner">
+      <input type="text" name="txt_inner">
+      <progress name="pg" value="0.5"></progress>
+    </fieldset>
+  </fieldset>
+</form>
+<script>
